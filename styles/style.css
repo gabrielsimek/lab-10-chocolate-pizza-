@@ -1,5 +1,5 @@
 
-body {
+main {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -9,8 +9,10 @@ body {
     width: 100%;
 }
 
-header {
+.header {
     display: flex;
+    justify-content: space-between;
+    padding: 2rem 0rem;
 }  
 .title {
     display: flex;
