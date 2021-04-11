@@ -1,12 +1,5 @@
 main {
     display: flex;
-    flex-direction: column; 
-    justify-content: center;
-    align-items: center;
-    margin-bottom: calc(var(--footer-height));
-}
-body {
-    display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -25,12 +18,12 @@ footer {
     justify-content: flex-end;
 }
 
-header {
+.header {
     display: flex;
     justify-content: space-between;
     background-color: gray;
     height: var(--header-height);
-}  
+    padding: 2rem 0rem;
 .title {
     display: flex;
 }
